@@ -1,8 +1,7 @@
 <template>
-  <div class="home">
-    Home sweet home!
-    <br>
-    <!-- <q-btn to="/pdf">Print PDF</q-btn> -->
+  <div class="step">
+    <div>Step {{ $route.params.id }}</div>
+    <q-btn to="/step/1"> Step 1</q-btn>
   </div>
 </template>
 
@@ -10,7 +9,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'HomeView',
+  name: 'StepView',
   components: {
   }
 })

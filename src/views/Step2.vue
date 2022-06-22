@@ -1,8 +1,6 @@
 <template>
-  <div class="home">
-    Home sweet home!
-    <br>
-    <!-- <q-btn to="/pdf">Print PDF</q-btn> -->
+  <div class="step">
+    <h1>Step-2</h1>
   </div>
 </template>
 
@@ -10,7 +8,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'HomeView',
+  name: 'Step2View',
   components: {
   }
 })
