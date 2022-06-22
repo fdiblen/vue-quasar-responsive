@@ -1,4 +1,4 @@
-# vue-ts-quasar
+# vue-quasar-responsive
 
 ## Project setup
 ```
